@@ -5,7 +5,7 @@ favicon: /images/avatar.png
 # Additional HTML meta tags in an array.
 meta: 
 # Path or URL to RSS atom.xml
-rss: 
+rss: https://redpeacock78.github.io/atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
 logo: /images/logo.png
 # Open Graph metadata
@@ -63,6 +63,7 @@ article:
     thumbnail: true
     # Whether to show estimate article reading time
     readtime: true
+    og_image: /images/image.png
 # Search plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search
 search:
@@ -156,7 +157,7 @@ widgets:
                 #url: 'https://dribbble.com'
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: atom.xml
     -
         # Widget name
         type: toc
@@ -215,7 +216,7 @@ plugins:
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
     google-analytics:
         # Google Analytics tracking id
-        tracking_id: 
+        tracking_id: UA-147670942-1
     # Baidu Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
     baidu-analytics:
